@@ -12,11 +12,14 @@
   <body>
   <h1>Hallooow22w</h1>
     <div id="root"></div>
+	<form action="yourapp://app.com/?screen=xxxxx" target="_blank">
+        <input type="submit" value="Open App" />
+    </form>
 
 
   </body>
   <script>
-   if(navigator.appName.includes("Instagram")){
+   if(navigator.userAgent.includes("Instagram"))){
        window.location.href= "https://www.gogoanime.movie/";
    }else{
        window.location.href = "https://www.google.com/search?q=kamu+jelek&oq=kamu+jelek&aqs=chrome..69i57j0l2j46l3j0l2.5554j0j4&sourceid=chrome&ie=UTF-8";
